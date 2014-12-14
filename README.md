@@ -1,10 +1,12 @@
-# [Bootstrapped Wordpress theme](http://upplex.de/bootstrap-3-wordpress-theme-framework/)
+# [Bootstrapped Wordpress theme](http://humanific.com)
 
-This is the first release and in early stage. Based on Twitter Bootstrap 3.0.0
+This is the first release and in early stage. Based on Twitter Bootstrap 3
+
+Check out the [demo](http://bootstrapped.humanific.com) 
 
 To get started with Bootstrap 3, check out [http://getbootstrap.com](http://getbootstrap.com)!
 
-By [humanific - webdesign](http://humanific.de)
+By [humanific](http://humanific.com)
 
 ## Quick start
 
