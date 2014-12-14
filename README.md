@@ -22,4 +22,4 @@ Submit your pull request and I will check it.
 
 ## Copyright and license
 
-Copyright 2014 upplex under GPL 3.0(LICENSE)
+Copyright 2014 humanific under GPL 3.0(LICENSE)
