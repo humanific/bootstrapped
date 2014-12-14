@@ -4,7 +4,7 @@
  *
  * Contains the closing of the id=main div and all content after
  *
-* @bootstrapped http://humanific.be
+* @wordstrap http://1-up.be
  */
 ?>
 
@@ -12,12 +12,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<footer id="colophon" class="site-footer panel panel-default" role="contentinfo">
-					<div class="site-info panel-body">
+				<footer id="colophon" class="site-footer" role="contentinfo">
 						<div><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer Widgets') ) : ?><?php endif; ?></div>
-						&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?>
-						
-					</div><!-- .site-info -->
 				</footer><!-- #colophon -->
 			</div><!-- .col-md-12 -->
 		</div><!-- .row -->
