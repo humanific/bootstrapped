@@ -22,7 +22,7 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header container" role="banner">
-		<nav class="navbar navbar-inverse navbar-top" role="navigation">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -43,7 +43,7 @@
 									  'menu_class' => 'nav navbar-nav',
 									  'fallback_cb' => '',
 			                          'menu_id' => 'main-menu',
-			                          'walker' => new Upbootwp_Walker_Nav_Menu()); 
+			                          'walker' => new bootstrapped_Walker_Nav_Menu()); 
 						wp_nav_menu($args);
 						?>
 						 </div>
