@@ -8,6 +8,16 @@
  */
 
 /**
+ * display stylesheet in editor.
+ */
+function bootstrapped_admin_modifications(){
+	add_editor_style( 'bootstrap.css' );
+}
+
+add_action('admin_menu', 'bootstrapped_admin_modifications');
+
+
+/**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  */
 function bootstrapped_page_menu_args( $args ) {

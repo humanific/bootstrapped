@@ -34,7 +34,7 @@
 							</button>
 				            <?php if ( ! dynamic_sidebar( 'logo' ) ) : ?>
 				            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"  class="navbar-brand"><?php bloginfo( 'name' ); ?></a>
-				            <?php endif; // end sidebar widget area ?>
+				            <?php endif; // end logo area ?>
 				        </div>
 						<div class="navbar-collapse collapse navbar-left">
 						<?php 
@@ -47,8 +47,9 @@
 						wp_nav_menu($args);
 						?>
 						 </div>
-						 
-						
+						 <div class="navbar-collapse collapse navbar-right">
+		            <?php dynamic_sidebar( 'navbar right' ) ?>
+						 </div>
 					</div><!-- .col-md-12 -->
 				</div><!-- row -->
 			</div><!-- container -->

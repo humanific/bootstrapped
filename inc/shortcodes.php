@@ -159,10 +159,10 @@ function add_gallery_styles() {
 
 function bootstrapped_gallery_shortcode($atts) {
    global $post;
-   	wp_enqueue_style( 'blueimpgallery2', get_stylesheet_directory_uri().'/js/blueimp-gallery.min.css');
-	wp_enqueue_style( 'blueimpgallery', get_stylesheet_directory_uri().'/js/bootstrap-image-gallery.min.css');
-	wp_enqueue_script( 'blueimpgallery', get_stylesheet_directory_uri().'/js/jquery.blueimp-gallery.min.js' , false );
-	wp_enqueue_script( 'blueimpgallery', get_stylesheet_directory_uri().'/js/bootstrap-image-gallery.min.js' , false );
+   wp_enqueue_style( 'blueimpgallery2', get_stylesheet_directory_uri().'/js/blueimp-gallery.min.css');
+   wp_enqueue_style( 'blueimpgallery', get_stylesheet_directory_uri().'/js/bootstrap-image-gallery.min.css');
+   wp_enqueue_script( 'blueimpgallery', get_stylesheet_directory_uri().'/js/jquery.blueimp-gallery.min.js' , false );
+   wp_enqueue_script( 'blueimpgallery', get_stylesheet_directory_uri().'/js/bootstrap-image-gallery.min.js' , false );
 	
 	
    if(isset($atts['ids'])){
