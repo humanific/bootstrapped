@@ -5,7 +5,6 @@
 
 
 add_theme_support( 'post-thumbnails' );
-add_theme_support( 'custom-header' );
 add_theme_support( 'custom-background' );
 
 register_nav_menu( 'primary', 'Primary Menu' );
@@ -17,8 +16,8 @@ function bootstrapped_deregister_styles() {
 }
 
 function bootstrapped_enqueue_script(){
-	wp_enqueue_script( 'bootstrapped_jquery', get_stylesheet_directory_uri().'/js/jquery.js' , false );
-	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri().'/js/bootstrap.min.js' , false );
+	//wp_enqueue_script( 'jquery', get_stylesheet_directory_uri().'/js/jquery.js' );
+	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri().'/js/bootstrap.min.js' , array( 'jquery' ) );
 }
 
 
@@ -69,8 +68,6 @@ add_action( 'init', 'bootstrapped_register_sidebars' );
 
 
 require_once 'inc/general/class-bootstrapped_Walker_Nav_Menu.php';
-require_once "inc/shortcodes.php";
-require_once "inc/custom-header.php";
 require_once "inc/extras.php";
 require_once "inc/template-tags.php";
 
