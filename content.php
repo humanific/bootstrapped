@@ -1,6 +1,6 @@
 <?php
 /**
-* @wordstrap http://1-up.be
+* @bootstrapped https://github.com/humanific/bootstrapped
  */
 ?>
 

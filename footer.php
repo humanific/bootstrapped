@@ -4,7 +4,7 @@
  *
  * Contains the closing of the id=main div and all content after
  *
-* @wordstrap http://1-up.be
+* @bootstrapped https://github.com/humanific/bootstrapped
  */
 ?>
 

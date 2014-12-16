@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <main id="main">
  *
-* @wordstrap http://1-up.be
+* @bootstrapped https://github.com/humanific/bootstrapped
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -54,7 +54,5 @@
 				</div><!-- row -->
 			</div><!-- container -->
 		</nav>
-		
 	</header><!-- #masthead -->
-
 	<div id="content" class="site-content">

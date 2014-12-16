@@ -2,7 +2,7 @@
 /**
  * The Sidebar containing the main widget areas.
  *
-* @wordstrap http://1-up.be
+* @bootstrapped https://github.com/humanific/bootstrapped
  */
 ?>
 	<div id="secondary" class="widget-area" role="complementary">

@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bootstrapped\n"
+"POT-Creation-Date: 2014-12-16 16:43+0700\n"
+"PO-Revision-Date: 2014-12-16 16:53+0700\n"
+"Last-Translator: François Richir <francoisrichir@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+#, fuzzy
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! La page n'a pas été trouvée."
+
+#: ../404.php:22
+#, fuzzy
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Nous n'avons rien trouvé a cette location. Essayez un des liens ci dessous"
+
+#: ../archive.php:33
+#, fuzzy, php-format
+msgid "Author: %s"
+msgstr "Auteur&nbsp;:"
+
+#: ../archive.php:41
+#, fuzzy, php-format
+msgid "Day: %s"
+msgstr "Date et titre"
+
+#: ../archive.php:44
+#, fuzzy, php-format
+msgid "Month: %s"
+msgstr "Mois et titre"
+
+#: ../archive.php:47
+#, fuzzy, php-format
+msgid "Year: %s"
+msgstr "Année&nbsp;:"
+
+#: ../archive.php:50
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:53
+#, fuzzy
+msgid "Images"
+msgstr "Images à la Une"
+
+#: ../archive.php:56
+#, fuzzy
+msgid "Videos"
+msgstr ""
+"Utilisez-le pour récupérer du texte, des images et des vidéos depuis n&rsquo;"
+"importe quelle page Web. Puis modifiez l&rsquo;article et ajoutez vos "
+"propres textes directement dans le bookmarklet, avant d&rsquo;enregistrer le "
+"tout ou de le publier dans un article sur votre site."
+
+#: ../archive.php:59
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:62
+#, fuzzy
+msgid "Links"
+msgstr "Suppression de liens"
+
+#: ../archive.php:65
+#, fuzzy
+msgid "Archives"
+msgstr "Archives"
+
+#: ../comments.php:36 ../comments.php:56
+#, fuzzy
+msgid "Comment navigation"
+msgstr "Titre de la navigation"
+
+#: ../comments.php:37 ../comments.php:57
+msgid "&larr; Older Comments"
+msgstr "ancien"
+
+#: ../comments.php:38 ../comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "récent"
+
+#: ../comments.php:68
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés"
+
+#: ../comments.php:77
+msgid "Leave a Reply"
+msgstr "Répondre"
+
+#: ../comments.php:78
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: ../comments.php:79
+msgid "Cancel Reply"
+msgstr "Annuler ma réponse"
+
+#: ../comments.php:80
+msgid "Post Comment"
+msgstr "Poster un commentaire"
+
+#: ../comments.php:88
+#, fuzzy, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Vous devez <a href=\"%s\">être connecté</a> pour publier un commentaire."
+
+#: ../comments.php:94
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Connecté comme  <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Me "
+"déconnecter\">Me déconnecter?</a>"
+
+#: ../comments.php:101
+#, fuzzy
+msgid "Your email address will not be published."
+msgstr "Vérifiez bien cette adresse de messagerie avant de continuer."
+
+#: ../comments.php:106
+#, fuzzy, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+" L&rsquo;heure <abbr title=\"Temps universel coordonné\">UTC</abbr> actuelle "
+"est <code>%s</code>"
+
+#: ../comments.php:114
+msgid "Name"
+msgstr "Nom"
+
+#: ../comments.php:120
+msgid "Email"
+msgstr "E-mail"
+
+#: ../comments.php:127
+msgid "Website"
+msgstr "Site web"
+
+#: ../content-page.php:19 ../content-single.php:20 ../content.php:27
+#: ../image.php:62
+msgid "Pages:"
+msgstr "Pages:"
+
+#: ../content-page.php:24 ../content-single.php:44 ../content.php:61
+#: ../image.php:36 ../image.php:80 ../inc/template-tags.php:85
+#: ../inc/template-tags.php:104
+msgid "Edit"
+msgstr "Editer"
+
+#: ../content-single.php:29 ../content-single.php:32 ../content.php:38
+#: ../content.php:48
+msgid ", "
+msgstr ""
+
+#: ../content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer a lire<span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content.php:42
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Posté dans %1$s"
+
+#: ../content.php:52
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Posté dans %1$s"
+
+#: ../content.php:58
+msgid "Leave a comment"
+msgstr "laisser un commentaire"
+
+#: ../content.php:58
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: ../content.php:58
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: ../image.php:25
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: ../image.php:41
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
+
+#: ../image.php:42
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../image.php:71
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:73
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Les commentaires sont fermés, mais vous pouvez laisser un trackback : <a "
+"class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" "
+"rel=\"trackback\">Trackback URL</a>."
+
+#: ../image.php:75
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Les trackbacks sont fermés, mais vous pouvez <a class=\"comment-link\" href="
+"\"#respond\" title=\"Poster un commentaire\">Poster un commentaire</a>."
+
+#: ../image.php:77
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Les commentaires sont fermés"
+
+#: ../no-results.php:13
+msgid "Nothing Found"
+msgstr "Rien trouvé"
+
+#: ../no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pret pour votre premier post? <a href=\"%1$s\">Démarer ici</a>."
+
+#: ../no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Vos mots de passe ne correspondent pas. Veuillez réessayer."
+
+#: ../no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Oops! La page n'a pas été trouvée."
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour &laquo;&nbsp;%s&nbsp;&raquo;"
+
+#: ../inc/extras.php:76
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Titre de la navigation"
+
+#: ../inc/template-tags.php:52
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
+
+#: ../inc/template-tags.php:59
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:85
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:95
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit:</span>"
+
+#: ../inc/template-tags.php:108
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: ../inc/template-tags.php:200
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+"<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
+"%2$s</span>"
+
+#: ../inc/template-tags.php:208
+#, php-format
+msgid "View all posts by %s"
+msgstr "Afficher tout les posts par %s"
+
+#: ../templates/contactform.php:10
+msgid "Thanks, your message has been sent."
+msgstr "Merci, votre message a été envoyé."
+
+#: ../templates/contactform.php:23
+msgid "Sorry, something went wrong."
+msgstr "Désolé, un problème est survenu."
+
+#: ../templates/contactform.php:36
+msgid "This field is mandatory"
+msgstr "Ce champ est obligatoire"
+
+#: ../templates/contactform.php:36
+msgid "Please check this email address"
+msgstr "S'il vous plaît vérifier l'adresse e-mail"
+
+#: ../templates/contactform.php:43
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../templates/contactform.php:59
+msgid "Your name"
+msgstr "Votre nom"
+
+#: ../templates/contactform.php:64
+msgid "Your email"
+msgstr "Votre e-mail"
+
+#: ../templates/contactform.php:69
+msgid "Your question"
+msgstr "Votre question"
+
+#: ../templates/contactform.php:76
+msgid "Send"
+msgstr "Envoyer"

@@ -1,6 +1,9 @@
 <?php
 /**
+ * The main theme file functions file.
  *
+ *
+ * @bootstrapped https://github.com/humanific/bootstrapped
  */
 
 
@@ -60,9 +63,13 @@ function bootstrapped_register_sidebars (){
 
 }
 
-
-
 add_action( 'init', 'bootstrapped_register_sidebars' );
+
+function bootstrapped_theme_setup(){
+    load_theme_textdomain('my_theme', get_template_directory() . '/languages');
+}
+
+add_action('after_setup_theme', 'bootstrapped_theme_setup');
 
 
 
