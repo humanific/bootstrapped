@@ -12,12 +12,12 @@ register_nav_menu( 'primary', 'Primary Menu' );
 
 
 function bootstrapped_deregister_styles() {
-	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/bootstrap.css');
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/bootstrap.css');
 }
 
 function bootstrapped_enqueue_script(){
-	//wp_enqueue_script( 'jquery', get_stylesheet_directory_uri().'/js/jquery.js' );
-	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri().'/js/bootstrap.min.js' , array( 'jquery' ) );
+	//wp_enqueue_script( 'jquery', get_template_directory_uri().'/js/jquery.js' );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri().'/js/bootstrap.min.js' , array( 'jquery' ) );
 }
 
 
