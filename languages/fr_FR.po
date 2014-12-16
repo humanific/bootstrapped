@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootstrapped\n"
 "POT-Creation-Date: 2014-12-16 16:43+0700\n"
-"PO-Revision-Date: 2014-12-16 16:53+0700\n"
+"PO-Revision-Date: 2014-12-16 20:05+0700\n"
 "Last-Translator: François Richir <francoisrichir@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -16,12 +16,10 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../404.php:18
-#, fuzzy
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops! La page n'a pas été trouvée."
 
 #: ../404.php:22
-#, fuzzy
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
@@ -29,61 +27,52 @@ msgstr ""
 "Nous n'avons rien trouvé a cette location. Essayez un des liens ci dessous"
 
 #: ../archive.php:33
-#, fuzzy, php-format
+#, php-format
 msgid "Author: %s"
-msgstr "Auteur&nbsp;:"
+msgstr "Auteur&nbsp;: %s"
 
 #: ../archive.php:41
-#, fuzzy, php-format
+#, php-format
 msgid "Day: %s"
-msgstr "Date et titre"
+msgstr "Jour&nbsp;: %s"
 
 #: ../archive.php:44
-#, fuzzy, php-format
+#, php-format
 msgid "Month: %s"
-msgstr "Mois et titre"
+msgstr "Mois&nbsp;: %s"
 
 #: ../archive.php:47
-#, fuzzy, php-format
+#, php-format
 msgid "Year: %s"
-msgstr "Année&nbsp;:"
+msgstr "Année&nbsp;: %s"
 
 #: ../archive.php:50
 msgid "Asides"
 msgstr ""
 
 #: ../archive.php:53
-#, fuzzy
 msgid "Images"
-msgstr "Images à la Une"
+msgstr "Images"
 
 #: ../archive.php:56
-#, fuzzy
 msgid "Videos"
-msgstr ""
-"Utilisez-le pour récupérer du texte, des images et des vidéos depuis n&rsquo;"
-"importe quelle page Web. Puis modifiez l&rsquo;article et ajoutez vos "
-"propres textes directement dans le bookmarklet, avant d&rsquo;enregistrer le "
-"tout ou de le publier dans un article sur votre site."
+msgstr "Videos"
 
 #: ../archive.php:59
 msgid "Quotes"
 msgstr ""
 
 #: ../archive.php:62
-#, fuzzy
 msgid "Links"
-msgstr "Suppression de liens"
+msgstr "Liens"
 
 #: ../archive.php:65
-#, fuzzy
 msgid "Archives"
 msgstr "Archives"
 
 #: ../comments.php:36 ../comments.php:56
-#, fuzzy
 msgid "Comment navigation"
-msgstr "Titre de la navigation"
+msgstr "Navigation des commentaires"
 
 #: ../comments.php:37 ../comments.php:57
 msgid "&larr; Older Comments"
@@ -115,7 +104,7 @@ msgid "Post Comment"
 msgstr "Poster un commentaire"
 
 #: ../comments.php:88
-#, fuzzy, php-format
+#, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 "Vous devez <a href=\"%s\">être connecté</a> pour publier un commentaire."
@@ -130,18 +119,17 @@ msgstr ""
 "déconnecter\">Me déconnecter?</a>"
 
 #: ../comments.php:101
-#, fuzzy
 msgid "Your email address will not be published."
-msgstr "Vérifiez bien cette adresse de messagerie avant de continuer."
+msgstr "Votre adresse de messageriene sera pas publiée."
 
 #: ../comments.php:106
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
 "and attributes: %s"
 msgstr ""
-" L&rsquo;heure <abbr title=\"Temps universel coordonné\">UTC</abbr> actuelle "
-"est <code>%s</code>"
+"Vous pouvez utiliser ces balises et attributs <abbr title=\"HyperText Markup "
+"Language\">HTML</abbr>: %s"
 
 #: ../comments.php:114
 msgid "Name"
