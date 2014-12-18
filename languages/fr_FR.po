@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootstrapped\n"
-"POT-Creation-Date: 2014-12-16 16:43+0700\n"
-"PO-Revision-Date: 2014-12-16 20:05+0700\n"
+"POT-Creation-Date: 2014-12-18 12:01+0700\n"
+"PO-Revision-Date: 2014-12-18 12:03+0700\n"
 "Last-Translator: François Richir <francoisrichir@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_nx:4c,1,2\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../404.php:18
@@ -48,7 +48,7 @@ msgstr "Année&nbsp;: %s"
 
 #: ../archive.php:50
 msgid "Asides"
-msgstr ""
+msgstr "Les apartés"
 
 #: ../archive.php:53
 msgid "Images"
@@ -60,7 +60,7 @@ msgstr "Videos"
 
 #: ../archive.php:59
 msgid "Quotes"
-msgstr ""
+msgstr "Citations"
 
 #: ../archive.php:62
 msgid "Links"
@@ -69,6 +69,14 @@ msgstr "Liens"
 #: ../archive.php:65
 msgid "Archives"
 msgstr "Archives"
+
+#: ../comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
 
 #: ../comments.php:36 ../comments.php:56
 msgid "Comment navigation"
@@ -193,6 +201,10 @@ msgid ""
 "image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
 "rel=\"gallery\">%8$s</a>"
 msgstr ""
+"Publié <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s"
+"\">%2$s</time></span> à <a href=\"%3$s\" title=\"Link to full-size image\">"
+"%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%8$s</a>"
 
 #: ../image.php:41
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
@@ -209,6 +221,10 @@ msgid ""
 "comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
 "title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Ajouter "
+"un commentaire</a> ou laisser un trackback : <a class=\"trackback-link\" "
+"href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
 
 #: ../image.php:73
 #, php-format
@@ -232,6 +248,50 @@ msgstr ""
 #: ../image.php:77
 msgid "Both comments and trackbacks are currently closed."
 msgstr "Les commentaires sont fermés"
+
+#: ../inc/extras.php:76
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: ../inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Titre de la navigation"
+
+#: ../inc/template-tags.php:52
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
+
+#: ../inc/template-tags.php:59
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:85
+msgid "Pingback:"
+msgstr "Pingback :"
+
+#: ../inc/template-tags.php:95
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit:</span>"
+
+#: ../inc/template-tags.php:108
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: ../inc/template-tags.php:200
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+"<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
+"%2$s</span>"
+
+#: ../inc/template-tags.php:208
+#, php-format
+msgid "View all posts by %s"
+msgstr "Afficher tout les posts par %s"
 
 #: ../no-results.php:13
 msgid "Nothing Found"
@@ -259,50 +319,6 @@ msgstr "Oops! La page n'a pas été trouvée."
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Résultats de recherche pour &laquo;&nbsp;%s&nbsp;&raquo;"
-
-#: ../inc/extras.php:76
-#, php-format
-msgid "Page %s"
-msgstr "Page %s"
-
-#: ../inc/template-tags.php:34
-msgid "Post navigation"
-msgstr "Titre de la navigation"
-
-#: ../inc/template-tags.php:52
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
-
-#: ../inc/template-tags.php:59
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
-
-#: ../inc/template-tags.php:85
-msgid "Pingback:"
-msgstr ""
-
-#: ../inc/template-tags.php:95
-#, php-format
-msgid "%s <span class=\"says\">says:</span>"
-msgstr "%s <span class=\"says\">dit:</span>"
-
-#: ../inc/template-tags.php:108
-msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de validation."
-
-#: ../inc/template-tags.php:200
-#, php-format
-msgid ""
-"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
-"%2$s</span>"
-msgstr ""
-"<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
-"%2$s</span>"
-
-#: ../inc/template-tags.php:208
-#, php-format
-msgid "View all posts by %s"
-msgstr "Afficher tout les posts par %s"
 
 #: ../templates/contactform.php:10
 msgid "Thanks, your message has been sent."

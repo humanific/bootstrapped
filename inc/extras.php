@@ -17,6 +17,50 @@ function bootstrapped_admin_modifications(){
 add_action('admin_menu', 'bootstrapped_admin_modifications');
 
 
+
+function bootstrapped_mce_before_init_insert_formats( $init_array ) {  
+
+	$style_formats = array(  
+		array( 'title' => 'well', 'block' => 'div',  'classes' => 'well','wrapper' => true),
+		array( 'title' => 'small', 'inline' => 'small'),  
+		array( 'title' => 'Big Text', 'inline' => 'span','classes' => 'lead'),  
+		
+		array( 'title' => 'primary', 'inline' => 'span',  'classes' => 'text-primary'), 
+		array( 'title' => 'success', 'inline' => 'span',  'classes' => 'text-success'), 
+		array( 'title' => 'warning', 'inline' => 'span',  'classes' => 'text-warning'), 
+		array( 'title' => 'danger', 'inline' => 'span',  'classes' => 'text-danger'),
+
+		array( 'title' => 'label primary', 'inline' => 'span',  'classes' => 'label label-primary'), 
+		array( 'title' => 'label success', 'inline' => 'span',  'classes' => 'label label-success'), 
+		array( 'title' => 'label warning', 'inline' => 'span',  'classes' => 'label label-warning'), 
+		array( 'title' => 'label danger', 'inline' => 'span',  'classes' => 'label label-danger'), 
+
+		array( 'title' => 'button primary', 'selector' => 'a',  'classes' => 'btn btn-primary'), 
+		array( 'title' => 'button success', 'selector' => 'a',  'classes' => 'btn btn-success'), 
+		array( 'title' => 'button warning', 'selector' => 'a',  'classes' => 'btn btn-warning'), 
+		array( 'title' => 'button danger', 'selector' => 'a',  'classes' => 'btn btn-danger'),
+	);  
+
+	$init_array['style_formats'] = json_encode( $style_formats );  
+	
+	return $init_array;  
+  
+} 
+
+add_filter( 'tiny_mce_before_init', 'bootstrapped_mce_before_init_insert_formats' );  
+
+// Callback function to insert 'styleselect' into the $buttons array
+function bootstrapped_mce_styledropdown( $buttons ) {
+	array_unshift( $buttons, 'styleselect' );
+	return $buttons;
+}
+// Register our callback to the appropriate filter
+add_filter('mce_buttons_2', 'bootstrapped_mce_styledropdown');
+
+
+
+
+
 /**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  */
@@ -78,3 +122,6 @@ function bootstrapped_wp_title( $title, $sep ) {
 	return $title;
 }
 add_filter( 'wp_title', 'bootstrapped_wp_title', 10, 2 );
+
+
+
