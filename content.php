@@ -15,9 +15,22 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
+
+
+
+
+
+
 	<?php if ( is_search() || is_home() ) : // Only display Excerpts for Search ?>
-	<div class="entry-summary">
+	<div class="entry-summary media">
+		<?php if ( has_post_thumbnail() ) :?>
+	<a class="media-left" href="<?php the_permalink(); ?>">
+	<?php the_post_thumbnail('thumbnail');?>
+</a>
+<?php endif;?>
+	<div class="media-body">
 		<?php the_excerpt(); ?>
+	</div>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
