@@ -18,35 +18,53 @@ add_action('admin_menu', 'bootstrapped_admin_modifications');
 
 
 
+
+
+/**
+ * add style dropdown in editor.
+ */
+
+
+
+
 function bootstrapped_mce_before_init_insert_formats( $init_array ) {  
 
 	$style_formats = array(  
 		array( 'title' => 'well', 'block' => 'div',  'classes' => 'well','wrapper' => true),
 		array( 'title' => 'small', 'inline' => 'small'),  
 		array( 'title' => 'Big Text', 'inline' => 'span','classes' => 'lead'),  
-		
+
 		array( 'title' => 'primary', 'inline' => 'span',  'classes' => 'text-primary'), 
 		array( 'title' => 'success', 'inline' => 'span',  'classes' => 'text-success'), 
 		array( 'title' => 'warning', 'inline' => 'span',  'classes' => 'text-warning'), 
 		array( 'title' => 'danger', 'inline' => 'span',  'classes' => 'text-danger'),
+    array( 'title' => 'info', 'inline' => 'span',  'classes' => 'text-info'),
 
 		array( 'title' => 'label primary', 'inline' => 'span',  'classes' => 'label label-primary'), 
 		array( 'title' => 'label success', 'inline' => 'span',  'classes' => 'label label-success'), 
 		array( 'title' => 'label warning', 'inline' => 'span',  'classes' => 'label label-warning'), 
 		array( 'title' => 'label danger', 'inline' => 'span',  'classes' => 'label label-danger'), 
+		array( 'title' => 'label info', 'inline' => 'span',  'classes' => 'label label-info'), 
 
 		array( 'title' => 'button primary', 'selector' => 'a',  'classes' => 'btn btn-primary'), 
 		array( 'title' => 'button success', 'selector' => 'a',  'classes' => 'btn btn-success'), 
 		array( 'title' => 'button warning', 'selector' => 'a',  'classes' => 'btn btn-warning'), 
 		array( 'title' => 'button danger', 'selector' => 'a',  'classes' => 'btn btn-danger'),
+		array( 'title' => 'label info', 'selector' => 'a',  'classes' => 'label label-info'), 
 	);  
 
+
+  $init_array['force_br_newlines'] = true;
+  $init_array['force_p_newlines'] = false;
+  $init_array['forced_root_block'] = '';
 	$init_array['style_formats'] = json_encode( $style_formats );  
 	
 	return $init_array;  
   
 } 
 
+
+//remove_filter( 'the_content', 'wpautop' );
 add_filter( 'tiny_mce_before_init', 'bootstrapped_mce_before_init_insert_formats' );  
 
 // Callback function to insert 'styleselect' into the $buttons array
@@ -57,9 +75,17 @@ function bootstrapped_mce_styledropdown( $buttons ) {
 // Register our callback to the appropriate filter
 add_filter('mce_buttons_2', 'bootstrapped_mce_styledropdown');
 
+function bootstrapped_escape_shortcode( $atts, $content = null ) {
+	$content = str_replace(array('<p>','</p>'), array('',''), $content);
+  return  $atts['html'] ? htmlentities($content) : $content ;
+}
+add_shortcode( 'escape', 'bootstrapped_escape_shortcode' );
 
-
-
+function bootstrapped_pre_shortcode( $atts, $content = null ) {
+	$content = str_replace(array('<p>','</p>'), array('',''), $content);
+  return  '<pre>' . ($atts['html'] ? htmlentities($content) : $content ) .'</pre>';
+}
+add_shortcode( 'pre', 'bootstrapped_pre_shortcode' );
 
 /**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
