@@ -186,28 +186,14 @@ if ( ! function_exists( 'bootstrapped_posted_on' ) ) :
  * Prints HTML with meta information for the current post-date/time and author.
  */
 function bootstrapped_posted_on() {
-	$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
-	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) )
-		$time_string .= '<time class="updated" datetime="%3$s">%4$s</time>';
-
-	$time_string = sprintf( $time_string,
+	printf( __( '<span class="sep">Posted on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'bootstrapped' ),
+		esc_url( get_permalink() ),
+		esc_attr( get_the_time() ),
 		esc_attr( get_the_date( 'c' ) ),
 		esc_html( get_the_date() ),
-		esc_attr( get_the_modified_date( 'c' ) ),
-		esc_html( get_the_modified_date() )
-	);
-
-	printf( __( '<span class="posted-on">Posted on %1$s</span><span class="byline"> by %2$s</span>', 'bootstrapped' ),
-		sprintf( '<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
-			esc_url( get_permalink() ),
-			esc_attr( get_the_time() ),
-			$time_string
-		),
-		sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
-			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-			esc_attr( sprintf( __( 'View all posts by %s', 'bootstrapped' ), get_the_author() ) ),
-			esc_html( get_the_author() )
-		)
+		esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
+		sprintf( esc_attr__( 'View all posts by %s', 'bootstrapped' ), get_the_author() ),
+		esc_html( get_the_author() )
 	);
 }
 endif;

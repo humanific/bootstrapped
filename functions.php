@@ -1,6 +1,6 @@
 <?php
 /**
- * The main theme file functions file.
+ * The main theme functions file.
  *
  *
  * @bootstrapped https://github.com/humanific/bootstrapped
@@ -10,16 +10,18 @@
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'custom-background' );
 
-register_nav_menu( 'primary', 'Primary Menu' );
+add_action( 'after_setup_theme', 'register_my_menu' );
+function register_my_menu() {
+  register_nav_menu( 'primary', 'Primary Menu' );
+}
 
 
 
 function bootstrapped_deregister_styles() {
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/bootstrap.css');
+	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/bootstrap.css');
 }
 
 function bootstrapped_enqueue_script(){
-	//wp_enqueue_script( 'jquery', get_template_directory_uri().'/js/jquery.js' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri().'/js/bootstrap.min.js' , array( 'jquery' ) );
 }
 
@@ -46,7 +48,7 @@ function bootstrapped_register_sidebars (){
 	));
 
 	register_sidebar(array(
-	    'name' => 'navbar right',
+	    'name' => 'Navbar right',
 	    'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	    'after_widget' => '</div>',
 	    'before_title' => '<h2 class="widgettitle">',
