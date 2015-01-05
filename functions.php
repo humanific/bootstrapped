@@ -10,8 +10,9 @@
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'custom-background' );
 
-add_action( 'after_setup_theme', 'register_my_menu' );
-function register_my_menu() {
+add_action( 'after_setup_theme', 'bootstrapped_register_menu' );
+
+function bootstrapped_register_menu() {
   register_nav_menu( 'primary', 'Primary Menu' );
 }
 
@@ -27,7 +28,7 @@ function bootstrapped_enqueue_script(){
 
 
 add_action( 'wp_enqueue_scripts', 'bootstrapped_enqueue_script' );
-add_action( 'wp_print_styles', 'bootstrapped_deregister_styles', 100 );
+add_action( 'wp_enqueue_scripts', 'bootstrapped_deregister_styles', 11 );
 
 
 function bootstrapped_register_sidebars (){

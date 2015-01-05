@@ -32,7 +32,8 @@ function bootstrapped_mce_before_init_insert_formats( $init_array ) {
 	$style_formats = array(  
 		array( 'title' => 'well', 'block' => 'div',  'classes' => 'well','wrapper' => true),
 		array( 'title' => 'small', 'inline' => 'small'),  
-		array( 'title' => 'Big Text', 'inline' => 'span','classes' => 'lead'),  
+		array( 'title' => 'Big Text', 'inline' => 'span','classes' => 'lead'),
+
 
 		array( 'title' => 'primary', 'inline' => 'span',  'classes' => 'text-primary'), 
 		array( 'title' => 'success', 'inline' => 'span',  'classes' => 'text-success'), 
@@ -40,21 +41,22 @@ function bootstrapped_mce_before_init_insert_formats( $init_array ) {
 		array( 'title' => 'danger', 'inline' => 'span',  'classes' => 'text-danger'),
     array( 'title' => 'info', 'inline' => 'span',  'classes' => 'text-info'),
 
+		array( 'title' => 'label default', 'inline' => 'span',  'classes' => 'label label-default'), 
 		array( 'title' => 'label primary', 'inline' => 'span',  'classes' => 'label label-primary'), 
 		array( 'title' => 'label success', 'inline' => 'span',  'classes' => 'label label-success'), 
 		array( 'title' => 'label warning', 'inline' => 'span',  'classes' => 'label label-warning'), 
 		array( 'title' => 'label danger', 'inline' => 'span',  'classes' => 'label label-danger'), 
 		array( 'title' => 'label info', 'inline' => 'span',  'classes' => 'label label-info'), 
 
+		array( 'title' => 'button default', 'selector' => 'a',  'classes' => 'btn btn-default'),
 		array( 'title' => 'button primary', 'selector' => 'a',  'classes' => 'btn btn-primary'), 
 		array( 'title' => 'button success', 'selector' => 'a',  'classes' => 'btn btn-success'), 
 		array( 'title' => 'button warning', 'selector' => 'a',  'classes' => 'btn btn-warning'), 
 		array( 'title' => 'button danger', 'selector' => 'a',  'classes' => 'btn btn-danger'),
-		array( 'title' => 'label info', 'selector' => 'a',  'classes' => 'label label-info'), 
+		array( 'title' => 'button info', 'selector' => 'a',  'classes' => 'btn btn-info'),
 	);  
 
 
-  $init_array['force_br_newlines'] = true;
   $init_array['force_p_newlines'] = false;
   $init_array['forced_root_block'] = '';
 	$init_array['style_formats'] = json_encode( $style_formats );  
