@@ -1,0 +1,1029 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: finicrowd\n"
+"POT-Creation-Date: 2015-03-06 09:00+0700\n"
+"PO-Revision-Date: 2015-03-06 09:00+0700\n"
+"Last-Translator: François Richir <francoisrichir@gmail.com>\n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_nx:4c,1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../js\n"
+
+#: ../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! De pagina kan niet gevonden worden."
+
+#: ../404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Er is niets gevonden op deze URL. Probeert u eens via de onderstaande links?"
+
+#: ../archive.php:33
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: ../archive.php:41
+#, php-format
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: ../archive.php:44
+#, php-format
+msgid "Month: %s"
+msgstr "Maand: %s"
+
+#: ../archive.php:47
+#, php-format
+msgid "Year: %s"
+msgstr "Jaar: %s"
+
+#: ../archive.php:50
+msgid "Asides"
+msgstr "Terzijde"
+
+#: ../archive.php:53
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: ../archive.php:56
+msgid "Videos"
+msgstr "Videos"
+
+#: ../archive.php:59
+msgid "Quotes"
+msgstr "Citaten"
+
+#: ../archive.php:62
+msgid "Links"
+msgstr "Links"
+
+#: ../archive.php:65
+msgid "Archives"
+msgstr "Archief"
+
+#: ../comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Een reactie op &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reacties op &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:36 ../comments.php:56
+msgid "Comment navigation"
+msgstr "Blader tussen reacties"
+
+#: ../comments.php:37 ../comments.php:57
+msgid "&larr; Older Comments"
+msgstr "& Larr; Oudere Reacties"
+
+#: ../comments.php:38 ../comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwe Reacties & rarr;"
+
+#: ../comments.php:68
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: ../comments.php:77
+msgid "Leave a Reply"
+msgstr "Laat een antwoord achter."
+
+#: ../comments.php:78
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Reactie %s"
+
+#: ../comments.php:79
+msgid "Cancel Reply"
+msgstr "Antwoord annuleren"
+
+#: ../comments.php:80
+msgid "Post Comment"
+msgstr "Plaats een reactie"
+
+#: ../comments.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "U moet<a href=\"%s\"> inloggen</a> om te kunnen reageren"
+
+#: ../comments.php:94
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Ingelogd als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log uit"
+"\">Log uit?</a>"
+
+#: ../comments.php:101
+msgid "Your email address will not be published."
+msgstr "Uw e-mailadres wordt niet gepubliceerd op de site."
+
+#: ../comments.php:106
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+"U kunt deze <abbr title=\"HyperText Markup Language\">HTML</abbr> tags en  "
+"attributen gebruiken: %s "
+
+#: ../comments.php:114
+msgid "Name"
+msgstr "Naam"
+
+#: ../comments.php:120
+msgid "Email"
+msgstr "E-mail"
+
+#: ../comments.php:127
+msgid "Website"
+msgstr "Website"
+
+#: ../content-page.php:19 ../content-single.php:21 ../content.php:40
+#: ../image.php:62
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: ../content-page.php:24 ../content-single.php:45 ../content.php:74
+#: ../image.php:36 ../image.php:80 ../inc/template-tags.php:85
+#: ../inc/template-tags.php:104
+msgid "Edit"
+msgstr "Bewerken"
+
+#: ../content-single.php:30 ../content-single.php:33 ../content.php:51
+#: ../content.php:61
+msgid ", "
+msgstr ", "
+
+#: ../content.php:37
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr "In %1$s"
+
+#: ../content.php:65
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Tag %1$s"
+
+#: ../content.php:71
+msgid "Leave a comment"
+msgstr "Laat een reactie achter"
+
+#: ../content.php:71
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#: ../content.php:71
+msgid "% Comments"
+msgstr "% Reacties"
+
+#: ../functions.php:20
+msgid "Read More"
+msgstr "Meer lezen"
+
+#: ../image.php:25
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+"Gepubliceerd <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+
+#: ../image.php:41
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vorige"
+
+#: ../image.php:42
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Volgende <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../image.php:71
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: ../image.php:73
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Reacties zijn gesloten, maar u kunt wel een trackback nalaten: <a class="
+"\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel="
+"\"trackback\">Trackback URL</a>."
+
+#: ../image.php:75
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Trackbacks zijn gesloten, maar u kunt <a class=\"comment-link\" href="
+"\"#respond\" title=\"Post een comment\"> een reactie toevoegen </a>."
+
+#: ../image.php:77
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Zowel reacties als trackbacks zijn momenteel uitgeschakeld."
+
+#: ../inc/extras.php:148
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: ../inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Blader tussen berichten"
+
+#: ../inc/template-tags.php:52
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
+
+#: ../inc/template-tags.php:59
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:85
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../inc/template-tags.php:95
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">says:</span>"
+
+#: ../inc/template-tags.php:108
+msgid "Your comment is awaiting moderation."
+msgstr "Uw bericht wordt gepubliceerd na goedkeuring door een moderator."
+
+#: ../inc/template-tags.php:189
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+"<span class=\"sep\">Gepost op </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a><span class=\"by-author\"> <span class=\"sep\"> door </span> <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></span></span>"
+
+#: ../no-results.php:13
+msgid "Nothing Found"
+msgstr "Niets Gevonden"
+
+#: ../no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klaar om uw eerste bericht te posten? <a href=\"%1$s\">Get started here</a>."
+
+#: ../no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, we vonden niets terug op basis van uw zoekopdracht. Probeer het "
+"opnieuw met een aantal verschillende zoekwoorden."
+
+#: ../no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Het lijkt erop dat we niet kunnen rsquo van &; t vinden wat u & rsquo; re "
+"zoekt. Misschien zkan zoeken helpen."
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: ../templates/contactform.php:10
+msgid "Thanks, your message has been sent."
+msgstr "Bedankt, uw bericht is verzonden."
+
+#: ../templates/contactform.php:23
+msgid "Sorry, something went wrong."
+msgstr "Sorry, er ging iets mis."
+
+#: ../templates/contactform.php:36
+msgid "This field is mandatory"
+msgstr "Dit veld is verplicht"
+
+#: ../templates/contactform.php:36
+msgid "Please check this email address"
+msgstr "Controleer dit e-mailadres"
+
+#: ../templates/contactform.php:43
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: ../templates/contactform.php:59
+msgid "Your name"
+msgstr "Uw naam"
+
+#: ../templates/contactform.php:64
+msgid "Your email"
+msgstr "Uw e-mail"
+
+#: ../templates/contactform.php:69
+msgid "Your question"
+msgstr "Uw vraag"
+
+#: ../templates/contactform.php:76
+msgid "Send"
+msgstr "Verstuur"
+
+#~ msgid "Finicrowd Settings"
+#~ msgstr "Finicrowd"
+
+#~ msgid "Save Changes"
+#~ msgstr "Profiel actualiseren"
+
+#~ msgid "Forgotten password"
+#~ msgstr "Mot de passe oublié"
+
+#~ msgid "Reset Password"
+#~ msgstr "Wachtwoord herzetten"
+
+#~ msgid "Register with facebook"
+#~ msgstr "Registreren met facebook"
+
+#~ msgid "or"
+#~ msgstr "of"
+
+#~ msgid "Register"
+#~ msgstr "Registreren"
+
+#~ msgid "Username"
+#~ msgstr "Gebruikersnaam"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"
+
+#~ msgid "Repeat password"
+#~ msgstr "Wachtwoord opnieuw"
+
+#~ msgid "Sign up"
+#~ msgstr "Inschrijven"
+
+#~ msgid "Login with facebook"
+#~ msgstr "Login met Facebook"
+
+#~ msgid "Login"
+#~ msgstr "Inloggen"
+
+#~ msgid "Email or username"
+#~ msgstr "Email of gebruikersnaam"
+
+#~ msgid "Log in"
+#~ msgstr "Inloggen"
+
+#~ msgid "If you don't have an account yet, please"
+#~ msgstr "Als u al geregistreerd bent kan u"
+
+#~ msgid "signup"
+#~ msgstr "registreren"
+
+#~ msgid "Bank Transfer"
+#~ msgstr "Bankovershrijving"
+
+#~ msgid "Bancontact"
+#~ msgstr "Bancontact"
+
+#~ msgid "Credit Card"
+#~ msgstr "kredietkaart"
+
+#~ msgid "Stripe Connect"
+#~ msgstr "Stripe Connect"
+
+#~ msgid "The card number is incorrect."
+#~ msgstr "De nummer van de kaart is niet correct"
+
+#~ msgid "The card number is not a valid credit card number."
+#~ msgstr "De nummer van de kaart is niet geldig"
+
+#~ msgid "The card's expiration month is invalid."
+#~ msgstr "De expiratie datum van de kaart is niet geldig"
+
+#~ msgid "The card's expiration year is invalid."
+#~ msgstr "Het expiratie jaar van de kaart is niet geldig"
+
+#~ msgid "The card's security code is invalid."
+#~ msgstr "De cvv code van de kaart is niet geldig"
+
+#~ msgid "The card has expired."
+#~ msgstr "De kaart is geexipreert"
+
+#~ msgid "The card's security code is incorrect."
+#~ msgstr "De cvv code  van de kaart is niet incorrect"
+
+#~ msgid "The card was declined."
+#~ msgstr "De kaart werdt afgewezen"
+
+#~ msgid "There is no card on a customer that is being charged."
+#~ msgstr "Er is een probleem opgetreden"
+
+#~ msgid "Featured Projects"
+#~ msgstr "Projecten in de kijker"
+
+#~ msgid "Follow"
+#~ msgstr "Volgen"
+
+#~ msgid "Like"
+#~ msgstr "Zoals"
+
+#~ msgid "+1"
+#~ msgstr "+1"
+
+#~ msgid "Connect"
+#~ msgstr "Aansluiten"
+
+#~ msgid "More"
+#~ msgstr "Meer"
+
+#~ msgid "Projects"
+#~ msgstr "Projecten"
+
+#~ msgid "Hi"
+#~ msgstr "Hallo"
+
+#~ msgid "My profile"
+#~ msgstr "Mijn profiel"
+
+#~ msgid "Sign out"
+#~ msgstr "Uitloggen"
+
+#~ msgid "Sign in"
+#~ msgstr "Inschrijven"
+
+#~ msgid "Limit"
+#~ msgstr "Limiet"
+
+#~ msgid "taken"
+#~ msgstr "ingenomen"
+
+#~ msgid "Description"
+#~ msgstr "Beschrijving"
+
+#~ msgid "Comments"
+#~ msgstr "Reacties"
+
+#~ msgid "Goal"
+#~ msgstr "Doel"
+
+#~ msgid "Raised"
+#~ msgstr "Opgehaald"
+
+#~ msgid "Supporters"
+#~ msgstr "Backers"
+
+#~ msgid "Days Left"
+#~ msgstr "Dagen resterend"
+
+#~ msgid ""
+#~ "This article was posted in %1$s%2$s. Bookmark the <a href=\"%3$s\" title="
+#~ "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>. Follow comments "
+#~ "with the <a href=\"%5$s\" title=\"Comments RSS to %4$s\" rel=\"alternate"
+#~ "\" type=\"application/rss+xml\">RSS feed for this post</a>."
+#~ msgstr ""
+#~ "Dit artikel is gepost op %1$s %2$s . Bookmark the <a href=\" %3$s \" "
+#~ "title=\"Permalink to %4$s \" rel=\"bookmark\">permalink</a>. Follow "
+#~ "comments with the <a href=\" %5$s \" title=\"Comments RSS to %4$s \" rel="
+#~ "\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
+
+#~ msgid " and tagged "
+#~ msgstr " en gelabeld "
+
+#~ msgid ""
+#~ "<a class=\"comment-link\" href=\"#respond\" title=\"Post a Comment\">Post "
+#~ "a Comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s"
+#~ "\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</"
+#~ "a>."
+#~ msgstr ""
+#~ "<a class=\"comment-link\" href=\"#respond\" title=\"Post a Comment\">Post "
+#~ "a Comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s"
+#~ "\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</"
+#~ "a>."
+
+#~ msgid ""
+#~ "Comments are closed, but you can leave a trackback: <a class=\"trackback-"
+#~ "link\" href=\"%s\" title=\"Trackback URL for post\" rel=\"trackback"
+#~ "\">Trackback URL</a>."
+#~ msgstr ""
+#~ "Reacties zijn gesloten, maar u kunt wel een trackback achterlaten: <a "
+#~ "class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for post\" rel="
+#~ "\"trackback\">Trackback URL</a"
+
+#~ msgid ""
+#~ "Trackbacks are closed, but you can <a class=\"comment-link\" href="
+#~ "\"#respond\" title=\"Post a Comment\">Post a Comment</a>."
+#~ msgstr ""
+#~ "Trackbacks zijn gesloten, maar u kunt <a class=\"comment-link\" href="
+#~ "\"#respond\" title=\"Post een Comment\"> Een reactie  plaatsen</a>."
+
+#~ msgid "Both comments and trackbacks are closed."
+#~ msgstr "Zowel reacties als trackbacks zijn gesloten."
+
+#~ msgid "Also posted in %s"
+#~ msgstr "Ook gepost in in %s"
+
+#~ msgid "Posted in "
+#~ msgstr "Gepost in"
+
+#~ msgid "Also tagged %s"
+#~ msgstr "Ook tagged %s"
+
+#~ msgid "Tagged "
+#~ msgstr "Tagged "
+
+#~ msgid "Project Closed"
+#~ msgstr "Project Gesloten"
+
+#~ msgid "Support Now"
+#~ msgstr "Nu steunen!"
+
+#~ msgid "Project Ends"
+#~ msgstr "Project eindigt op"
+
+#~ msgid "Thank you"
+#~ msgstr "Heel erg bedankt! Je staat op punt een bijdrage te leveren voor:"
+
+#~ msgid "Create an Investors account"
+#~ msgstr "Open een investerings account"
+
+#~ msgid "Create my investors account"
+#~ msgstr "Open mijn investerings profiel"
+
+#~ msgid "Choose your level"
+#~ msgstr "Kies uw niveau"
+
+#~ msgid "Enter a amount"
+#~ msgstr "Vul een bedrag in"
+
+#~ msgid "Choose your payment method"
+#~ msgstr "Kies uw betaalmethode"
+
+#~ msgid "Card Holder's Name"
+#~ msgstr "Naam op de kaart"
+
+#~ msgid "Card Number"
+#~ msgstr "Kaartnummer"
+
+#~ msgid "Card Expiry Date"
+#~ msgstr "Expiratie datum"
+
+#~ msgid "Payment fee:"
+#~ msgstr "Betalingskosten"
+
+#~ msgid "Total amount"
+#~ msgstr "Totaal bedrag"
+
+#~ msgid "Make your payment"
+#~ msgstr "Kies uw betalingsmethode"
+
+#~ msgid "Pay with"
+#~ msgstr "Betaal met"
+
+#~ msgid "Submit Payment"
+#~ msgstr "Betaling voltooien"
+
+#~ msgid "Creating transaction"
+#~ msgstr "transactie aanmaken"
+
+#~ msgid "Please be patient"
+#~ msgstr "Even geduld"
+
+#~ msgid "Checking card data"
+#~ msgstr "Kaart verificatie"
+
+#~ msgid "Card accepted, Thank you"
+#~ msgstr "Heel erg bedankt! "
+
+#~ msgid "Thanks your "
+#~ msgstr "Bedankt"
+
+#~ msgid "Redirection"
+#~ msgstr "Redirectie..."
+
+#~ msgid "This field is required"
+#~ msgstr "Dit veldt is verplicht"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Voer een geldig e-mailadres in"
+
+#~ msgid "Please enter the same value again."
+#~ msgstr "Typ het nieuwe wachtwoord opnieuw in."
+
+#~ msgid "Enter at least {0} characters"
+#~ msgstr "Vul ten minsten  {0} letters in"
+
+#~ msgid "Please enter only nummers and letters"
+#~ msgstr "Alleen letters, nummers, en underscores"
+
+#~ msgid "Support Levels"
+#~ msgstr "Support Levels"
+
+#~ msgid "Tweet"
+#~ msgstr "Tweet"
+
+#~ msgid "RAISED"
+#~ msgstr "OPGEHAALD"
+
+#~ msgid "Your profile has been updated"
+#~ msgstr "Je profiel is gewijzigd"
+
+#~ msgid ""
+#~ "This email is already registered, please <a class=\"ajaxlogin\" href="
+#~ "\"javascript:document.ajaxlogin();void(0)\">login</a> "
+#~ msgstr ""
+#~ "Dit email is al geregistreerd, gelieve <a class=\"ajaxlogin\" href="
+#~ "\"javascript:document.ajaxlogin();void(0)\">in te loggen</a> "
+
+#~ msgid "First Name"
+#~ msgstr "Voornaam"
+
+#~ msgid "Last Name"
+#~ msgstr "Achternaam"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "City"
+#~ msgstr "Stad"
+
+#~ msgid "Postal Code"
+#~ msgstr "Postcode"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefoonnummer"
+
+#~ msgid "Bank Account Number"
+#~ msgstr "Bankrekeningnummer"
+
+#~ msgid "Update your profile"
+#~ msgstr "Profiel actualiseren"
+
+#~ msgid "Password again"
+#~ msgstr "Wachtwoord opnieuw"
+
+#~ msgid ""
+#~ "Please accept our <a href=\"/legal\" target=\"_blank\">Legal Terms and "
+#~ "Conditions</a>"
+#~ msgstr ""
+#~ "Onze <a href=\"/legal\" target=\"_blank\">Legal Voorwaarden</a> aanvaarden"
+
+#~ msgid "Receive weekly updates about finicrowd opportunities"
+#~ msgstr "Wordt op de hoogte gehouden over finicrowd projecten"
+
+#~ msgid "Your account has been created"
+#~ msgstr "Bedankt voor uw inschrijving"
+
+#~ msgid "This username is taken"
+#~ msgstr "Deze gebruikersnaam is al ingenomen"
+
+#~ msgid "This email is already registered"
+#~ msgstr "Dit e-mailadres is reeds geregistreerd, kunt u een andere kiezen?"
+
+#~ msgid "Belgium"
+#~ msgstr "België"
+
+#~ msgid "Your project creator account"
+#~ msgstr "Uw ondernemers profiel openen"
+
+#~ msgid "Create my entrepreneurs account"
+#~ msgstr "Open mijn  ondernemers profiel"
+
+#~ msgid "Tell us everything about your project"
+#~ msgstr "Vertel ons alles over uw project"
+
+#~ msgid "Working titel"
+#~ msgstr "Werk titel"
+
+#~ msgid "Phone number"
+#~ msgstr "Telefoonnummer"
+
+#~ msgid "Investment goal"
+#~ msgstr "Investerings doel"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Here you can explain your project"
+#~ msgstr "Stel hier uw project voor"
+
+#~ msgid "Submit my project"
+#~ msgstr "Mijn project versturen"
+
+#~ msgid "Step 1:"
+#~ msgstr "Stap 1:"
+
+#~ msgid "Specify your contribution amount for"
+#~ msgstr "Geef hier het bedrag in dat u wil bijdragen voor"
+
+#~ msgid "Contribution Level"
+#~ msgstr "Niveau van bijdrage"
+
+#~ msgid "Total"
+#~ msgstr "Totaal"
+
+#~ msgid "Next Step"
+#~ msgstr "Volgende Stap"
+
+#~ msgid "pledgers"
+#~ msgstr "Investeerders"
+
+#~ msgid "Days to go"
+#~ msgstr "Dagen resterend"
+
+#~ msgid "Project end"
+#~ msgstr "Einde project"
+
+#~ msgid "Learn more"
+#~ msgstr "Leer Meer"
+
+#~ msgid "Application Settings"
+#~ msgstr "Application instellingen"
+
+#~ msgid "Production Client ID"
+#~ msgstr "Production Client ID"
+
+#~ msgid "Development Client ID"
+#~ msgstr "Development Client ID"
+
+#~ msgid "Fee Type"
+#~ msgstr "Type vergoeding"
+
+#~ msgid "Flat Fee (in cents)"
+#~ msgstr "Flat Fee (in centen)"
+
+#~ msgid "Percentage"
+#~ msgstr "Percentage"
+
+#~ msgid "Application Fee"
+#~ msgstr "Application vergoeding"
+
+#~ msgid "Enable Development Mode"
+#~ msgstr "Schakel Development Mode in"
+
+#~ msgid "Project Specific URL:"
+#~ msgstr "Project Specific URL:"
+
+#~ msgid "Select Project"
+#~ msgstr "Selecteer project"
+
+#~ msgid "Your URL:"
+#~ msgstr "Uw URL:"
+
+#~ msgid "Button Code"
+#~ msgstr "Button Code"
+
+#~ msgid "Blue on Light"
+#~ msgstr "Blauw op licht"
+
+#~ msgid "Blue on Dark"
+#~ msgstr "Blauw op donker"
+
+#~ msgid "Light on Light"
+#~ msgstr "Licht op licht"
+
+#~ msgid "Light on Dark"
+#~ msgstr "Licht op donker"
+
+#~ msgid "Connect with Stripe"
+#~ msgstr "Verbind met Stripe"
+
+#~ msgid "Using Stripe Connect"
+#~ msgstr "Gebruik stripe Connect"
+
+#~ msgid ""
+#~ "Stripe Connect enables site owners to process transactions via Stripe "
+#~ "Connect user accounts, and if desired, to charge a fee for doing so."
+#~ msgstr ""
+#~ "Stripe Connect maakt het mogelijk voor websitebeheerders om betalingen "
+#~ "uit te voeren via Stripe Connect accounts, en indien gewenst er een "
+#~ "vergoeding voor te vragen."
+
+#~ msgid "In order to use"
+#~ msgstr "Om dit te gebruiken"
+
+#~ msgid "you will need a"
+#~ msgstr "heeft u een "
+
+#~ msgid "Stripe account"
+#~ msgstr "Stripe Account nodig"
+
+#~ msgid "with an application created via the dashboard."
+#~ msgstr "Met een toepassing via het dashboard"
+
+#~ msgid "Stripe Settings"
+#~ msgstr "Stripe instellingen"
+
+#~ msgid ""
+#~ "You will need a <a href=\"http://www.stripe.com\" target=\"_blank"
+#~ "\">Stripe Account</a> in order to continue. Please enter your credentials "
+#~ "in order to continue and activate Stripe."
+#~ msgstr ""
+#~ "You will need a <a href=\"http://www.stripe.com\" target=\"_blank"
+#~ "\">Stripe Account</a> in order to continue. Please enter your credentials "
+#~ "in order to continue and activate Stripe."
+
+#~ msgid "If using sandbox mode, make sure to enter test credentials."
+#~ msgstr "Gebruik test gegevens als u zich nog in sandbox mode bent."
+
+#~ msgid ""
+#~ "Note, all Stripe transactions will be processed in the currency selected "
+#~ "below. Use the default project settings to change level display."
+#~ msgstr ""
+#~ "Opgelet, all Stripe transacties zullen verwerkt worden via de "
+#~ "onderstaande munteenheid. Gebruik de standaardinstellingen om de level "
+#~ "display te veranderen."
+
+#~ msgid "Currency"
+#~ msgstr "Valuta"
+
+#~ msgid "Choose Currency"
+#~ msgstr "Kies munteenheid"
+
+#~ msgid "USD"
+#~ msgstr "Amerikaanse dollar"
+
+#~ msgid "CAD"
+#~ msgstr "Canadese dollar"
+
+#~ msgid "GBP"
+#~ msgstr "Britse Pond"
+
+#~ msgid "EUR"
+#~ msgstr "Euro"
+
+#~ msgid "AUD (beta)"
+#~ msgstr "Australische dollar"
+
+#~ msgid "Fund Type"
+#~ msgstr "Fund Type"
+
+#~ msgid "Immediately Deliver Funds"
+#~ msgstr "Geld onmiddellijk storten"
+
+#~ msgid "100% Threshold"
+#~ msgstr "100% drempelwaarde"
+
+#~ msgid "Live Secret Key"
+#~ msgstr "Live Secret Key"
+
+#~ msgid "Live Publishable Key"
+#~ msgstr "Live Publishable Key"
+
+#~ msgid "Test Secret Key"
+#~ msgstr "Test Secret Key"
+
+#~ msgid "Test Publishable Key"
+#~ msgstr "Test Publishable Key"
+
+#~ msgid "Click "
+#~ msgstr "Klik"
+
+#~ msgid "here"
+#~ msgstr "hier"
+
+#~ msgid "for testing information"
+#~ msgstr "voor test informatie"
+
+#~ msgid "Test Mode"
+#~ msgstr "Test mode"
+
+#~ msgid "Disable Paypal"
+#~ msgstr "Schakel Paypal uit"
+
+#~ msgid "Process Project Authorizations"
+#~ msgstr "Process Project Authorizations"
+
+#~ msgid ""
+#~ "Use this screen to process transactions once your fund threshold has been "
+#~ "reached. Please use this feature with care, and remember to clearly state "
+#~ "terms on your website or campaign page"
+#~ msgstr ""
+#~ "Gebruik dit scherm om transacties te verwerken eens de drempelwaarde "
+#~ "bereikt is. Gebruik deze feature met enige voorzichtigheid en vergeet "
+#~ "niet de voorwaarden duidelijk te vermelden op uw website of campagne "
+#~ "pagina."
+
+#~ msgid ""
+#~ "Warning:</span> This will process all pending authorizations related to "
+#~ "the selected campaign"
+#~ msgstr ""
+#~ "Waarschuwing: </span> Dit zal alle wachtende transacties van de "
+#~ "geselecteerde campagne activeren."
+
+#~ msgid "Customers will only be charged once"
+#~ msgstr "Kosten worden maar één keer in rekening gebracht."
+
+#~ msgid "Hide Notification"
+#~ msgstr "Verberg notificatie"
+
+#~ msgid "Payment Information"
+#~ msgstr "Betalingsgegevens"
+
+#~ msgid "JavaScript is required for the registration form."
+#~ msgstr "JavaScriot is noodzakelijk om dit formulier in te vullen."
+
+#~ msgid "My projects"
+#~ msgstr "Mijn projecten"
+
+#~ msgid "First name"
+#~ msgstr "Voornaam"
+
+#~ msgid "Last name"
+#~ msgstr "Achternaam"
+
+#~ msgid "Date of birth"
+#~ msgstr "Geboortedatum"
+
+#~ msgid "Subscribe to the newsletter"
+#~ msgstr "Inschrijven op de nieuwsbrief"
+
+#~ msgid "This username is already taken."
+#~ msgstr "Deze gebruikersnaam wordt al gebruikt."
+
+#~ msgid "Letters, numbers, and underscores only please"
+#~ msgstr "Alleen letters, nummers en underscores gebruiken."
+
+#~ msgid "Upload project files"
+#~ msgstr "Upload bestanden van uw project"
+
+#~ msgid ""
+#~ "Here you can upload all the files related to your project, logos, "
+#~ "presentations, images, etc..."
+#~ msgstr ""
+#~ "Hier kunt u alle bestanden van uw project uploaden zoals  logos, "
+#~ "presentaties, afbeeldingen, etc..."
+
+#~ msgid "drag files here"
+#~ msgstr "Sleep bestanden naar hier"
+
+#~ msgid "Register to our newsletter"
+#~ msgstr "Inschrijven op de nieuwsbrief"
+
+#~ msgid "pledged of"
+#~ msgstr "Geinvesteerd van"
+
+#~ msgid "Required"
+#~ msgstr "Verplicht"
+
+#~ msgid "State"
+#~ msgstr "Staat"
+
+#~ msgid "Total contribution"
+#~ msgstr "Totale bijdrage"
+
+#, fuzzy
+#~ msgid "Number of children"
+#~ msgstr "Kaartnummer"
+
+#~ msgid "Level"
+#~ msgstr "Niveau"
+
+#~ msgid ""
+#~ "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+#~ "%2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
+#~ "%2$s</span>"
+
+#~ msgid "View all posts by %s"
+#~ msgstr "Afficher tout les posts par %s"

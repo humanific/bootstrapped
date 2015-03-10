@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootstrapped\n"
-"POT-Creation-Date: 2014-12-18 12:01+0700\n"
-"PO-Revision-Date: 2014-12-18 12:03+0700\n"
+"POT-Creation-Date: 2015-03-06 08:59+0700\n"
+"PO-Revision-Date: 2015-03-06 09:00+0700\n"
 "Last-Translator: François Richir <francoisrichir@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -151,47 +151,51 @@ msgstr "E-mail"
 msgid "Website"
 msgstr "Site web"
 
-#: ../content-page.php:19 ../content-single.php:20 ../content.php:27
+#: ../content-page.php:19 ../content-single.php:21 ../content.php:40
 #: ../image.php:62
 msgid "Pages:"
 msgstr "Pages:"
 
-#: ../content-page.php:24 ../content-single.php:44 ../content.php:61
+#: ../content-page.php:24 ../content-single.php:45 ../content.php:74
 #: ../image.php:36 ../image.php:80 ../inc/template-tags.php:85
 #: ../inc/template-tags.php:104
 msgid "Edit"
 msgstr "Editer"
 
-#: ../content-single.php:29 ../content-single.php:32 ../content.php:38
-#: ../content.php:48
+#: ../content-single.php:30 ../content-single.php:33 ../content.php:51
+#: ../content.php:61
 msgid ", "
-msgstr ""
+msgstr ", "
 
-#: ../content.php:24
+#: ../content.php:37
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Continuer a lire<span class=\"meta-nav\">&rarr;</span>"
 
-#: ../content.php:42
+#: ../content.php:55
 #, php-format
 msgid "Posted in %1$s"
 msgstr "Posté dans %1$s"
 
-#: ../content.php:52
+#: ../content.php:65
 #, php-format
 msgid "Tagged %1$s"
 msgstr "Posté dans %1$s"
 
-#: ../content.php:58
+#: ../content.php:71
 msgid "Leave a comment"
 msgstr "laisser un commentaire"
 
-#: ../content.php:58
+#: ../content.php:71
 msgid "1 Comment"
 msgstr "1 Commentaire"
 
-#: ../content.php:58
+#: ../content.php:71
 msgid "% Comments"
 msgstr "% Commentaires"
+
+#: ../functions.php:20
+msgid "Read More"
+msgstr "En Savoir plus"
 
 #: ../image.php:25
 #, php-format
@@ -249,7 +253,7 @@ msgstr ""
 msgid "Both comments and trackbacks are currently closed."
 msgstr "Les commentaires sont fermés"
 
-#: ../inc/extras.php:76
+#: ../inc/extras.php:148
 #, php-format
 msgid "Page %s"
 msgstr "Page %s"
@@ -279,19 +283,20 @@ msgstr "%s <span class=\"says\">dit:</span>"
 msgid "Your comment is awaiting moderation."
 msgstr "Votre commentaire est en attente de validation."
 
-#: ../inc/template-tags.php:200
+#: ../inc/template-tags.php:189
 #, php-format
 msgid ""
-"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
-"%2$s</span>"
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></span></span>"
 msgstr ""
-"<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
-"%2$s</span>"
-
-#: ../inc/template-tags.php:208
-#, php-format
-msgid "View all posts by %s"
-msgstr "Afficher tout les posts par %s"
+"<span class=\"sep\">Posté le </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</"
+"time></a><span class=\"by-author\"> <span class=\"sep\"> par </span> <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></span></span>"
 
 #: ../no-results.php:13
 msgid "Nothing Found"
@@ -355,3 +360,13 @@ msgstr "Votre question"
 #: ../templates/contactform.php:76
 msgid "Send"
 msgstr "Envoyer"
+
+#~ msgid ""
+#~ "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+#~ "%2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
+#~ "%2$s</span>"
+
+#~ msgid "View all posts by %s"
+#~ msgstr "Afficher tout les posts par %s"

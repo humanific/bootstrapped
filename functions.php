@@ -16,7 +16,10 @@ function bootstrapped_register_menu() {
   register_nav_menu( 'primary', 'Primary Menu' );
 }
 
-
+function bootstrapped_excerpt_more( $more ) {
+	return ' <p class="text-right"><a class="btn btn-default btn-sm" href="'. get_permalink( get_the_ID() ) . '"><i class="glyphicon glyphicon-play-circle"></i> ' . __('Read More', 'bootstrapped') . '</a></p>';
+}
+add_filter( 'excerpt_more', 'bootstrapped_excerpt_more' );
 
 function bootstrapped_deregister_styles() {
 	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/bootstrap.css');
@@ -42,6 +45,7 @@ function bootstrapped_register_sidebars (){
 	
 	register_sidebar(array(
 	    'name' => 'footer Widgets',
+	    'id'            => 'footer-widgets',
 	    'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	    'after_widget' => '</div>',
 	    'before_title' => '<h2 class="widgettitle">',
@@ -50,6 +54,7 @@ function bootstrapped_register_sidebars (){
 
 	register_sidebar(array(
 	    'name' => 'Navbar right',
+	    'id'            => 'navbar-right',
 	    'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	    'after_widget' => '</div>',
 	    'before_title' => '<h2 class="widgettitle">',
@@ -58,6 +63,7 @@ function bootstrapped_register_sidebars (){
 
 	register_sidebar(array(
 	    'name' => 'logo',
+	    'id'            => 'logo',
 	    'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	    'after_widget' => '</div>',
 	    'before_title' => '<h2 class="widgettitle">',

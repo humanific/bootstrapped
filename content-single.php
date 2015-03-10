@@ -10,6 +10,7 @@
 
 		<div class="entry-meta">
 			<?php bootstrapped_posted_on(); ?>
+			<hr>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
