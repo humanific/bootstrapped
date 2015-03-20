@@ -80,16 +80,14 @@ function bootstrapped_comment( $comment, $args, $depth ) {
 
 	if ( 'pingback' == $comment->comment_type || 'trackback' == $comment->comment_type ) : ?>
 
-	<li id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
+	<div id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
 		<div class="comment-body">
 			<?php _e( 'Pingback:', 'bootstrapped' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'bootstrapped' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
-
+	</div>
 	<?php else : ?>
 
-	<li id="comment-<?php comment_ID(); ?>" <?php comment_class( empty( $args['has_children'] ) ? '' : 'parent' ); ?>>
-		<article id="div-comment-<?php comment_ID(); ?>" class="comment-body">
-			<footer class="comment-meta">
+	<div class="well" id="comment-<?php comment_ID(); ?>" <?php comment_class( empty( $args['has_children'] ) ? '' : 'parent' ); ?>>
 				<div class="comment-author vcard">
 					<?php if ( 0 != $args['avatar_size'] ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
 					<?php printf( __( '%s <span class="says">says:</span>', 'bootstrapped' ), sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() ) ); ?>
@@ -107,7 +105,6 @@ function bootstrapped_comment( $comment, $args, $depth ) {
 				<?php if ( '0' == $comment->comment_approved ) : ?>
 				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'bootstrapped' ); ?></p>
 				<?php endif; ?>
-			</footer><!-- .comment-meta -->
 
 			<div class="comment-content">
 				<?php comment_text(); ?>
@@ -122,8 +119,7 @@ function bootstrapped_comment( $comment, $args, $depth ) {
 					'after'     => '</div>',
 				) ) );
 			?>
-		</article><!-- .comment-body -->
-
+	</div>
 	<?php
 	endif;
 }

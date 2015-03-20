@@ -21,7 +21,6 @@ if ( post_password_required() )
 
 	<div id="comments" class="comments-area">
 
-	<?php // You can start editing here -- including this comment! ?>
 
 	<?php if ( have_comments() ) : ?>
 		<h4 class="comments-title">
@@ -39,7 +38,7 @@ if ( post_password_required() )
 		</nav><!-- #comment-nav-above -->
 		<?php endif; // check for comment navigation ?>
 
-		<ol class="comment-list">
+
 			<?php
 				/* Loop through and list the comments. Tell wp_list_comments()
 				 * to use bootstrapped_comment() to format the comments.
@@ -49,7 +48,7 @@ if ( post_password_required() )
 				 */
 				wp_list_comments( array( 'callback' => 'bootstrapped_comment' ) );
 			?>
-		</ol><!-- .comment-list -->
+		<!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav id="comment-nav-below" class="comment-navigation" role="navigation">
